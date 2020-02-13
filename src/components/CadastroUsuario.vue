@@ -77,11 +77,11 @@ export default{
     }
   },
 
-  /*mounted(){
+  mounted(){
     Usuario.listar().then(resposta => {
       this.usuarios = resposta.data
     })
-  },*/
+  },
 
   methods:{
 

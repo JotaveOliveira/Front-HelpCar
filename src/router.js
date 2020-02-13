@@ -16,7 +16,7 @@ export default new Router({
             name: 'login',
 
             component: () => ('./component/LoginUsuario.vue')
-        }
+        },
         {
             path:'/usuarios',
             name: 'usuarios',
