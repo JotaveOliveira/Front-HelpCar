@@ -61,6 +61,8 @@ import Usuario from './service/usuarios'
 
 export default{
 
+  name:'CadastroUsuario',
+
   data(){
     return{
       usuario:{
