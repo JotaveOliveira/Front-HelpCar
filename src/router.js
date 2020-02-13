@@ -17,5 +17,11 @@ export default new Router({
 
             component: () => ('./component/LoginUsuario.vue')
         }
+        {
+            path:'/usuarios',
+            name: 'usuarios',
+
+            component: () => ('./component/CadastroUsuario.vue')
+        }
     ]
 })
