@@ -3,8 +3,6 @@
 
     <div id="nav">
       <router-link to="/home">Home</router-link>
-      <router-link to="/loginUsuario">LoginUsuario</router-link>
-      <router-link to="/usuariosCadastro">CadastroUsuario</router-link>
     </div>
 
     <router-view/>
