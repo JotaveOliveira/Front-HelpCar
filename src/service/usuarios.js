@@ -6,6 +6,6 @@ export default{
     },
 
     salvar:(usuario) => {
-        return http.post('/usuarios', usuario)
+        return http.post('/cadastraUsuario', usuario)
     }
 }

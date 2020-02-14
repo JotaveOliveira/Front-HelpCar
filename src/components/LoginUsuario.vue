@@ -1,6 +1,7 @@
 <template>
-     <form class="form-signin">
-        <img class="mb-4" src="Images/IconLogin.png" alt="icon" width="72" height="72">
+  <body>
+    <form class="form-signin">
+        <img class="mb-4" src="./assets/IconLogin.png" alt="icon" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Login</h1>
         <label for="inputEmail" class="sr-only">Email</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
@@ -14,7 +15,9 @@
         <button class="btn btn-lg btn-danger btn-block" type="submit">Entrar</button>
         <p class="mt-5 mb-3 text-muted">&copy; HelpCar 2020</p>
       </form>
+  </body>     
 </template>
+
 <script>
 export default {
     name: 'LoginUsuario'
@@ -23,7 +26,7 @@ export default {
 
 <style>
 
-.form-signin {
+body {
   height: 100%;
   display: -ms-flexbox;
   display: flex;

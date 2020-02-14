@@ -44,7 +44,7 @@
                         Graça!!!!</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="d-block w-100" src="Images/imagemSobre.jpg" alt="imagem1" />
+                    <img class="d-block w-100" src="./assets/imagemSobre.jpg" alt="imagem1" />
                 </div>
             </div>
 
@@ -59,7 +59,7 @@
                         constrangedoras. </p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img class="d-block w-100" src="Images/imagemQueme.jpg" alt="imagem2" />
+                    <img class="d-block w-100" src="./assets/imagemQueme.jpg" alt="imagem2" />
                 </div>
             </div>
 
