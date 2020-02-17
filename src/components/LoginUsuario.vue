@@ -1,7 +1,7 @@
 <template>
   <body>
     <form class="form-signin">
-        <img class="mb-4" src="./assets/IconLogin.png" alt="icon" width="72" height="72">
+        <img class="mb-4" src="../assets/IconLogin.png" alt="icon" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Login</h1>
         <label for="inputEmail" class="sr-only">Email</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>

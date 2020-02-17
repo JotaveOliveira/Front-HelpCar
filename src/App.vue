@@ -2,7 +2,7 @@
   <div id="app">
 
     <div id="nav">
-      <router-link to="/home">Home</router-link>
+      <router-link to="/"></router-link>
     </div>
 
     <router-view/>
@@ -13,14 +13,6 @@
 
 <script>
 
-  //import CadastroUsuario from "./components/CadastroUsuario.vue"
-
-  //export default {
-    //name:"app",
-    //components:{
-     // CadastroUsuario
-    //}
- // }
 </script>
 
 <style>

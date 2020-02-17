@@ -57,7 +57,7 @@
 
 <script>
 
-import Usuario from './service/usuarios'
+import Usuario from '../service/usuarios'
 
 export default{
 
