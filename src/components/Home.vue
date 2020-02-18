@@ -17,8 +17,8 @@
                     </li>
                 </ul>
                 <form class="form-inline mt-2 mt-md-0">
-                    <button class="btn btn-success mr-2 my-3 my-sm-0" type="submit"><router-link to="/usuariosCadastro">Cadastre-se</router-link></button>
-                    <button class="btn btn-danger my-2 my-sm-0" type="submit"><router-link to="/loginUsuario">Login</router-link></button>
+                    <button class="btn btn-info mr-2 my-3 my-sm-0" type="submit"><router-link to="/usuariosCadastro" id="colorButton">Cadastre-se</router-link></button>
+                    <button class="btn btn-info my-2 my-sm-0" type="submit"><router-link to="/loginUsuario" id="colorButton">Login</router-link></button>
                     <router-view/>
                 </form>
             </div>
@@ -98,3 +98,13 @@ export default {
     name: 'Home'
 }
 </script>
+
+<style>
+a:hover{
+    text-decoration: none;
+}
+#colorButton{
+    color: #fff;
+}
+
+</style>

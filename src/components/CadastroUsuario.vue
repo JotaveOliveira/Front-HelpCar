@@ -93,7 +93,6 @@ export default{
           alert('Cadastrado com sucesso!')
         )
     }
-
   }
 
 }
