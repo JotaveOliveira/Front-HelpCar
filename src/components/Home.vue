@@ -15,6 +15,9 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="#">Contatos <span class="sr-only"></span></a>
                     </li>
+                    <li>
+                        <a class="nav-link" href="#">Deseja ser um prestador de serviço?<span class="sr-only"></span></a>
+                    </li>
                 </ul>
                 <form class="form-inline mt-2 mt-md-0">
                     <button class="btn btn-info mr-2 my-3 my-sm-0" type="submit"><router-link to="/usuariosCadastro" id="colorButton">Cadastre-se</router-link></button>
@@ -80,6 +83,21 @@
                     </iframe>
                 </div>
             </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Você é<span class="text-muted">Prestador de Serviço?</span></h2>
+                    <p class="lead">Se você tem seu próprio negócio e deseja participar do HelpCar para facilitar a vida de muitas pessoas
+                        com o melhor atendimento e total segurança ao cliente e fazer o seu próprio negócio decolar com clientes de todos os lugares
+                        cadastre-se clicando no link a seguir e faça parte do teste dessa aplicação  <router-link to="/prestadoresServico">..Cadastre-se como prestador de serviço</router-link></p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="d-block w-100" src="../assets/imagemQueme.jpg" alt="imagem2" />
+                </div>
+            </div>
+            
 
             <hr class="featurette-divider">
 
