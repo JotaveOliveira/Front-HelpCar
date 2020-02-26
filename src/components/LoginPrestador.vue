@@ -1,7 +1,7 @@
 <template>
 
   <body>
-    <form class="form-signin">
+    <form class="form-signin" (submit)="login()">
       <img class="mb-4" src="../assets/IconLogin.png" alt="icon" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Login</h1>
       <label for="inputEmail" class="sr-only">Email</label>
@@ -33,18 +33,16 @@
         }
     },
 
-    mounted() {
-        var resultLogin = Prestador.login(email, senha)
-    },
+    login(){
 
-    function (resultLogin){
+        var resultLogin = Prestador.login(email, senha)
+
         if(resultLogin == false){
             return alert('Email ou senha incorretos !!!')
         }else{
             return <router to="/paginaPrincipal"></router>
         }
     }
-
   }
 </script>
 
