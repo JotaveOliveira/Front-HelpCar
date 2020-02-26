@@ -106,6 +106,10 @@
                             cadastre-se clicando no link a seguir e faça parte do teste dessa aplicação <router-link
                                 to="/prestadoresServico">..Cadastre-se como prestador de serviço</router-link>
                         </p>
+                        
+                        <p>Já é cadastrado ? Deseja fazer login? </p><button class="btn btn-info my-2 my-sm-0" type="submit">
+                            <router-link to="/loginPrestador" id="colorButton">Logar como prestador</router-link>
+                        </button>
                     </div>
                     <div class="col-md-5 order-md-1">
                         <img class="d-block w-100" src="../assets/imagemQueme.jpg" alt="imagem2" />
