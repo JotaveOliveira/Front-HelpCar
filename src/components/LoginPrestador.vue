@@ -5,9 +5,9 @@
       <img class="mb-4" src="../assets/IconLogin.png" alt="icon" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Login</h1>
       <label for="inputEmail" class="sr-only">Email</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email" v-model="email" required autofocus>
       <label for="inputPassword" class="sr-only">Senha</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Senha" v-model="senha" required>
       <div class="checkbox mb-3">
         <label>
           <input type="checkbox" value="remember-me"> Lembrar de mim
@@ -20,8 +20,31 @@
 </template>
 
 <script>
+
+  import Prestador from '../service/prestadores'
+
   export default {
-    name: 'LoginUsuario'
+    name: 'LoginUsuario',
+
+    data() {
+      return {
+          email: '',
+          senha: ''
+        }
+    },
+
+    mounted() {
+        var resultLogin = Prestador.login(email, senha)
+    },
+
+    function (resultLogin){
+        if(resultLogin == false){
+            return alert('Email ou senha incorretos !!!')
+        }else{
+            return <router to="/paginaPrincipal"></router>
+        }
+    }
+
   }
 </script>
 
