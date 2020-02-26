@@ -24,7 +24,7 @@
   import Prestador from '../service/prestadores'
 
   export default {
-    name: 'LoginUsuario',
+    name: 'LoginPrestador',
 
     data() {
       return {
