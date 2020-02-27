@@ -6,17 +6,17 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto ml-5">
                         <li class="nav-item ">
-                            <a class="nav-link " href="#">Sobre <span class="sr-only"></span></a>
+                            <a class="nav-link " href="#sobre">Sobre <span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Quem Somos <span class="sr-only"></span></a>
+                            <a class="nav-link" href="#quemSomos">Quem Somos <span class="sr-only"></span></a>
                         </li>
 
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Contatos <span class="sr-only"></span></a>
+                            <a class="nav-link" href="#contatos">Contatos <span class="sr-only"></span></a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">Deseja ser um prestador de serviço?<span
+                            <a class="nav-link" href="#prestador">Deseja ser um prestador de serviço?<span
                                     class="sr-only"></span></a>
                         </li>
                     </ul>
@@ -34,7 +34,7 @@
         </header>
 
         <main role="main">
-            <div class="anime">
+            <div class="anime" id="sobre">
                 <div class="container marketing">
                     <br />
                     <br />
@@ -66,7 +66,7 @@
             </div>
 
             <hr class="featurette-divider">
-            <div class="anime">
+            <div class="anime" id="quemSomos">
                 <div class="row featurette">
                     <div class="col-md-7 order-md-2">
                         <h2 class="featurette-heading">Quem é <span class="text-muted">HelpCar?</span></h2>
@@ -85,7 +85,7 @@
             </div>
 
             <hr class="featurette-divider">
-            <div class="anime">
+            <div class="anime" id="contatos">
                 <div class="row featurette">
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Contatos <span class="text-muted">HelpCar</span></h2>
@@ -103,7 +103,7 @@
             </div>
 
             <hr class="featurette-divider">
-            <div class="anime">
+            <div class="anime" id="prestador">
                 <div class="row featurette">
                     <div class="col-md-7 order-md-2">
                         <h2 class="featurette-heading">Você é<span class="text-muted">Prestador de Serviço?</span>
