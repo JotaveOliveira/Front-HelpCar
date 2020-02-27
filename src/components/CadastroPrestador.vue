@@ -31,7 +31,7 @@
                 </div>
                 <div class="form-group">
                     <label for="inputAddress2">Endereço</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Ex: Av.Brasil - 1965"
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Ex: Rua Camargo Vieira - 1965"
                         v-model="prestador.endereco" required>
                 </div>
                 <div class="form-row">
@@ -47,7 +47,7 @@
                     </div>
                     <div class="form-group col-md-2">
                         <label for="inputZip">CEP</label>
-                        <input type="text" class="form-control" placeholder="Ex.: 00000-000" maxlength="9" id="inputZip"
+                        <input type="text" class="form-control" placeholder="Ex.: 03847-365" maxlength="9" id="inputZip"
                             v-model="prestador.cep" required>
                     </div>
                 </div>
