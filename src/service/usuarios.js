@@ -5,6 +5,10 @@ export default{
         return http.get('/usuarios')
     },
 
+    login:() => {
+        return http.get('/loginUsuario', email, senha)
+    },
+
     salvar:(usuario) => {
         return http.post('/cadastraUsuario', usuario)
     }
