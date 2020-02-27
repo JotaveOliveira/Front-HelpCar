@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <body>
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
@@ -136,7 +136,7 @@
                 <p>&copy; 2020 HelpCar </p>
             </footer>
         </main>
-    </div>
+    </body>
 </template>
 
 <script>
@@ -145,6 +145,17 @@
     }
 </script>
 <script>
+
+    $('nav a').click(function(e){
+        e.preventDefault();
+        var id = $(this).attr('href'),
+            targetOffset = $(id).offset().top, 
+            menuHeight = $('nav').innerHeight();
+        $('body').animate({
+            scrollTop: targetOffset - menuHeight
+        },500);
+    });
+
     debounce = function (func, wait, immediate) {
         var timeout;
         return function () {
