@@ -138,15 +138,12 @@
         </main>
     </body>
 </template>
-
 <script>
     export default {
         name: 'Home'
     }
-</script>
-<script>
 
-    $('nav a').click(function(e){
+    /*$('nav a').click(function(e){
         e.preventDefault();
         var id = $(this).attr('href'),
             targetOffset = $(id).offset().top, 
@@ -194,10 +191,8 @@
         $(document).scroll(debounce(function () {
             animeScroll();
         }, 200));
-    }());
+    }());*/
 </script>
-<script type="text/javascript" src="../jquery-3.1.1.min.js"></script>
-
 <style>
     a:hover {
         text-decoration: none;

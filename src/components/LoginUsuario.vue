@@ -36,7 +36,7 @@
 
     usuarioLogin(){
 
-        var resultLogin = Usuario.login(email, senha)
+        var resultLogin = Usuario.login(this.email, this.senha)
 
         if(resultLogin == false){
             return alert('Email ou senha incorretos !!!')

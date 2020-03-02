@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './components/Home.vue'
-import Login from './components/LoginUsuario.vue'
+import LoginUsuario from './components/LoginUsuario.vue'
+import LoginPrestador from './components/LoginPrestador'
 import CadastroUser from './components/CadastroUsuario.vue'
+import CadastroPrestador from './components/CadastroPrestador.vue'
 
 Vue.use(Router)
 
@@ -15,14 +17,24 @@ export default new Router({
         },
         {
             path: '/loginUsuario',
-            name: 'login',
-            component: Login
+            name: 'loginUsuario',
+            component: LoginUsuario
         },
         {
             path:'/usuariosCadastro',
             name: 'usuarios',
 
             component: CadastroUser
+        },
+        {
+            path: '/prestadorCadastro',
+            name: 'prestadores',
+            component: CadastroPrestador
+        },
+        {
+            path: '/loginPrestador',
+            name: 'loginPrestador',
+            component: LoginPrestador
         }
     ]
 })

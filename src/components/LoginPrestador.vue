@@ -35,7 +35,7 @@
 
     prestadorLogin(){
 
-        var resultLogin = Prestador.login(email, senha)
+        var resultLogin = Prestador.login(this.email, this.senha)
 
         if(resultLogin == false){
             return alert('Email ou senha incorretos !!!')
