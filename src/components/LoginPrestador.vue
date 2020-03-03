@@ -9,9 +9,12 @@
       <label for="inputPassword" class="sr-only">Senha</label>
       <input type="password" id="inputPassword" class="form-control" placeholder="Senha" v-model="senha" required>
       <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Lembrar de mim
-        </label>
+        <div class="row">
+          <label>
+            <input type="checkbox" value="remember-me"> Lembrar de mim
+          </label>
+          <a href="#">Esqueci minha senha ...</a>
+        </div>
       </div>
       <button class="btn btn-lg btn-danger btn-block" type="submit">Entrar</button>
       <p class="mt-5 mb-3 text-muted">&copy; HelpCar 2020</p>
@@ -20,7 +23,6 @@
 </template>
 
 <script>
-
   import Prestador from '../service/prestadores'
 
   export default {
@@ -28,20 +30,20 @@
 
     data() {
       return {
-          email: '',
-          senha: ''
-        }
+        email: '',
+        senha: ''
+      }
     },
 
-    prestadorLogin(){
+    prestadorLogin() {
 
-        var resultLogin = Prestador.login(this.email, this.senha)
+      var resultLogin = Prestador.login(this.email, this.senha)
 
-        if(resultLogin == false){
-            return alert('Email ou senha incorretos !!!')
-        }else{
-            return <router to="/paginaPrincipal"></router>
-        }
+      if (resultLogin == false) {
+        return alert('Email ou senha incorretos !!!')
+      } else {
+        return <router to = "/paginaPrincipal" > </router>
+      }
     }
   }
 </script>
