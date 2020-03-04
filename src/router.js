@@ -5,6 +5,7 @@ import LoginUsuario from './components/LoginUsuario.vue'
 import LoginPrestador from './components/LoginPrestador'
 import CadastroUser from './components/CadastroUsuario.vue'
 import CadastroPrestador from './components/CadastroPrestador.vue'
+import RedefinaSenha from './components/RedefinirSenha.vue'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
             path: '/loginPrestador',
             name: 'loginPrestador',
             component: LoginPrestador
+        },
+        {
+            path: '/redefinaSenha',
+            name: 'redefinaSenha',
+            component: RedefinaSenha 
         }
     ]
 })
