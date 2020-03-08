@@ -5,11 +5,11 @@ export default{
         return http.get('/prestadores')
     },
 
-    login:() => {
+/*    login:() => {
         return http.get('/loginPrestador', email, senha)
     },
-
+*/
     salvar:(prestador) => {
-        return http.post('/prestadoresServico', prestador)
+        return http.post('/prestadoresCadastro', prestador)
     }
 }

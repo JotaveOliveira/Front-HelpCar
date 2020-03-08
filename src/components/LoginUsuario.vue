@@ -9,12 +9,10 @@
       <label for="inputPassword" class="sr-only">Senha</label>
       <input type="password" id="inputPassword" class="form-control" v-model="senha" placeholder="Senha" required>
       <div class="checkbox mb-3">
-        <div class="row">
           <label>
             <input type="checkbox" value="remember-me"> Lembrar de mim
           </label>
-          <a href="#">Esqueci minha senha ...</a>
-        </div>
+          <a href="#">  Esqueci minha senha ...</a>
       </div>
       <button class="btn btn-lg btn-danger btn-block" type="submit">Entrar</button>
       <p class="mt-5 mb-3 text-muted">&copy; HelpCar 2020</p>

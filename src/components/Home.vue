@@ -69,7 +69,7 @@
             <div class="anime" id="quemSomos">
                 <div class="row featurette">
                     <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading">Quem é <span class="text-muted">HelpCar?</span></h2>
+                        <h2 class="featurette-heading">Quem é <span class="text-muted"> HelpCar?</span></h2>
                         <p class="lead">HelpCar é uma empresa criada a partir de funcionários, desenvolvedores de
                             softwares,
                             foi idealizada a partir de uma situação no cotidiano, a empresa busca sempre trazer a
@@ -88,7 +88,7 @@
             <div class="anime" id="contatos">
                 <div class="row featurette">
                     <div class="col-md-7">
-                        <h2 class="featurette-heading">Contatos <span class="text-muted">HelpCar</span></h2>
+                        <h2 class="featurette-heading">Contatos <span class="text-muted"> HelpCar</span></h2>
                         <p class="lead"></p>
 
                     </div>
@@ -106,7 +106,7 @@
             <div class="anime" id="prestador">
                 <div class="row featurette">
                     <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading">Você é<span class="text-muted">Prestador de Serviço?</span>
+                        <h2 class="featurette-heading">Você é<span class="text-muted"> Prestador de Serviço?</span>
                         </h2>
                         <p class="lead">Se você tem seu próprio negócio e deseja participar do HelpCar para
                             facilitar a
